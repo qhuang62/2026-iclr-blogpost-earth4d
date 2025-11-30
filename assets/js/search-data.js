@@ -7,35 +7,35 @@ ninja.data = [{
     title: "home",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/2026/";
+      window.location.href = "/2026-iclr-blogpost-earth4d/";
     },
   },{id: "nav-about",
           title: "about",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/2026/about/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/about/";
           },
         },{id: "nav-call-for-blogposts",
           title: "call for blogposts",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/2026/call/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/call/";
           },
         },{id: "nav-submitting",
           title: "submitting",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/2026/submitting/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/submitting/";
           },
         },{id: "nav-reviewing",
           title: "reviewing",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/2026/reviewing/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/reviewing/";
           },
         },{id: "dropdown-lt-strong-gt-2026-lt-strong-gt",
               title: "&lt;strong&gt;2026&lt;/strong&gt;",
@@ -80,7 +80,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/wait-do-we-need-to-wait/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/wait-do-we-need-to-wait/";
           
         },
       },{id: "post-tracing-the-principles-behind-modern-diffusion-models",
@@ -91,7 +91,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/tracing-principles-behind-modern-diffusion-models/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/tracing-principles-behind-modern-diffusion-models/";
           
         },
       },{id: "post-symbolism-outside-connectionism-inside-the-trend-of-fusing-llms-and-automatic-programs-with-symbolic-intermediate-representations",
@@ -102,7 +102,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/symbolic-connect/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/symbolic-connect/";
           
         },
       },{id: "post-speeding-up-training-of-model-free-reinforcement-learning-a-comparative-evaluation-for-fast-and-accurate-learning",
@@ -113,7 +113,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/speeding-up-rl/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/speeding-up-rl/";
           
         },
       },{id: "post-getting-sac-to-work-on-a-massive-parallel-simulator-an-rl-journey-with-off-policy-algorithms",
@@ -124,7 +124,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/sac-massive-sim/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/sac-massive-sim/";
           
         },
       },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
@@ -135,7 +135,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/pushing-meta-cl-methods/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/pushing-meta-cl-methods/";
           
         },
       },{id: "post-language-as-a-window-into-the-mind-how-nlp-and-llms-advance-human-sciences",
@@ -146,7 +146,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/nlp-for-human-sciences/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/nlp-for-human-sciences/";
           
         },
       },{id: "post-model-misspecification-in-simulation-based-inference-recent-advances-and-open-challenges",
@@ -157,7 +157,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/model-misspecification-in-sbi/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/model-misspecification-in-sbi/";
           
         },
       },{id: "post-do-language-models-really-learn-to-mislead-humans-via-rlhf",
@@ -168,7 +168,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/mislead-lm/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/mislead-lm/";
           
         },
       },{id: "post-on-the-measure-of-a-model-from-intelligence-to-generality",
@@ -179,7 +179,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/measuregen/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/measuregen/";
           
         },
       },{id: "post-research-directions-in-multimodal-chain-of-thought-mcot-with-sketching",
@@ -190,7 +190,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/mcot-sketching/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/mcot-sketching/";
           
         },
       },{id: "post-from-reinforce-to-dr-grpo-a-unified-perspective-on-llm-post-training",
@@ -201,7 +201,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/llm-post-training/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/llm-post-training/";
           
         },
       },{id: "post-are-dilemmas-and-conflicts-in-llm-alignment-solvable-a-view-from-priority-graph",
@@ -212,7 +212,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/llm-conflicts/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/llm-conflicts/";
           
         },
       },{id: "post-justrl-scaling-a-1-5b-llm-with-a-simple-rl-recipe",
@@ -223,7 +223,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/justrl/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/justrl/";
           
         },
       },{id: "post-introduction-to-stochastic-interpolants",
@@ -234,7 +234,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/introduction-to-stochastic-interpolants/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/introduction-to-stochastic-interpolants/";
           
         },
       },{id: "post-evalcards-for-standardized-evaluation-reporting",
@@ -245,7 +245,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/evalcards/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/evalcards/";
           
         },
       },{id: "post-elastic-weight-consolidation-ewc-nuts-and-bolts",
@@ -256,18 +256,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/elastic-weight-consolidation-nuts-bolts/";
-          
-        },
-      },{id: "post-ai-fundamentals-valuing-ai-agents-amp-data-assets",
-        
-          title: "AI Fundamentals: Valuing AI Agents &amp; Data Assets",
-        
-        description: "Large Language Model (LLM) agents now read the world through managed-context pipelines, write to it via tool-calling APIs, and continuously re-wire themselves with fresh experience. Stakeholders therefore need a Generally Accepted Accounting Principles (GAAP) compatible method to price both (i) the agent&#39;s labour-like output and (ii) the data traces that fuel learning. We formalise a single unifying metric - agent Economic Value (AEV)- and demonstrate, using evidence from millions of real conversations, $1M of freelance software contracts, and 48k physician rubric points in healthcare, that these metrics are measurable today. We then extend the template to reinforcement-learning regimes in which grounded rewards equal cash flows. Lastly, we propose a financial settlement layer, which transforms the agent from a passive software user into an active economic participant.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/economic-agents/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/elastic-weight-consolidation-nuts-bolts/";
           
         },
       },{id: "post-earth4d-production-ready-space-time-positional-encoding-for-world-models",
@@ -278,7 +267,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/earth4d-world-models/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/earth4d-world-models/";
           
         },
       },{id: "post-sample-blog-post",
@@ -289,7 +278,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/distill-example/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/distill-example/";
           
         },
       },{id: "post-from-u-nets-to-dits-the-architectural-evolution-of-text-to-image-diffusion-models-2021-2025",
@@ -300,7 +289,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/diffusion-architecture-evolution/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/diffusion-architecture-evolution/";
           
         },
       },{id: "post-defining-and-quantifying-compositional-structure",
@@ -311,7 +300,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/compositionality/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/compositionality/";
           
         },
       },{id: "post-chunktabpfn-training-free-long-context",
@@ -322,7 +311,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/chunked-tabpfn/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/chunked-tabpfn/";
           
         },
       },{id: "post-budget-alignment-making-models-reason-in-the-user-39-s-language",
@@ -333,14 +322,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/budget-alignment/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/budget-alignment/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/2026/books/the_godfather/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -348,7 +337,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/2026/news/announcement_2/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -356,47 +345,47 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/1_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/2_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/3_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/4_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/5_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/6_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/7_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/8_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/2026/projects/9_project/";
+              window.location.href = "/2026-iclr-blogpost-earth4d/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -416,7 +405,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/2026/feed.xml", "_blank");
+          window.open("/2026-iclr-blogpost-earth4d/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://iclr-blogposts.github.io/2026/sitemap.xml
+Sitemap: https://qhuang62.github.io/2026-iclr-blogpost-earth4d/sitemap.xml
