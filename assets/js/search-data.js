@@ -83,6 +83,28 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/wait-do-we-need-to-wait/";
           
         },
+      },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
+        
+          title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
+        
+        description: "We explore how large language models can be used to predict human decisions in language-based persuasion games, comparing direct prompting, LLM-based data generation, and hybrid methods that mix synthetic and human data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/using-large-language-models-to-simulate-and-predict-human-decision-making/";
+          
+        },
+      },{id: "post-what-and-what-not-are-calibrated-uncertainties-actually-useful-for",
+        
+          title: "What (and What Not) are Calibrated Uncertainties Actually Useful for?",
+        
+        description: "The blogpost clarifies the usefulness of having a model with calibrated probabilities, something that is not often stated in the calibration literature. I shows that a calibrated model can be relied on to estimate average loss/reward, however, good calibration does not mean that a model is useful for per-sample decision making.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/useful-calibrated-uncertainties/";
+          
+        },
       },{id: "post-tracing-the-principles-behind-modern-diffusion-models",
         
           title: "Tracing the Principles Behind Modern Diffusion Models",
@@ -94,11 +116,11 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/tracing-principles-behind-modern-diffusion-models/";
           
         },
-      },{id: "post-symbolism-outside-connectionism-inside-the-trend-of-fusing-llms-and-automatic-programs-with-symbolic-intermediate-representations",
+      },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
         
-          title: "Symbolism Outside, Connectionism Inside: The Trend of Fusing LLMs and Automatic Programs with...",
+          title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
         
-        description: "This blog introduces the trend of fusing Large Language Models (LLMs) with external symbolic programs as a new paradigm in modern and future artificial intelligence (AI). This paradigm regards LLM output as a symbolic intermediate representation (IR), which is interpreted and executed by external symbolic programs to achieve the desired behavior. We firstly review and summarize the diverse applications of this paradigm. Then we introduce the more possible usages of this paradigm, from synthesizing grounded training data to composing modular systems of specialized neural networks. Finally, we introduce the frontier of this approach: applying formal methods to automatically verify the LLM&#39;s internal reasoning processes and outputs.",
+        description: "The history of Artificial Intelligence (AI) has largely been defined by a dichotomy: the flexible, probabilistic learning of Connectionism versus the rigorous, compositional logic of Symbolism. However, the emergence of Large Language Models (LLMs) is fostering a synthesis of these paradigms through a fundamental architectural shift: the move from Dense Monoliths to Modular, Routed Systems. This shift is fractal. At the Macro level, LLMs function as central planners, using symbolic protocols to orchestrate external tools and specialized neural agents. Simultaneously, at the Micro level, the models themselves are evolving into sparse, modular structures (such as Mixture-of-Experts) governed by internal routing mechanisms. In this post, we explore this transition toward Symbolic Routing. We discuss how this paradigm enables us to build societies of neural agents, discover latent modularity within dense networks, thus enabling composable, verifiable, interpretable and continually learnable AI system. And we also discuss how to leverage these structures to synthesize training data and formally verify AI reasoning.",
         section: "Posts",
         handler: () => {
           
@@ -171,6 +193,17 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/mislead-lm/";
           
         },
+      },{id: "post-misalignments-and-rl-failure-modes-in-the-early-stage-of-superintelligence",
+        
+          title: "Misalignments and RL Failure Modes in the Early Stage of Superintelligence",
+        
+        description: "With the rapid ability grokking of frontier Large Models (LMs), there is growing attention and research focus on aligning them with human values and intent via large scale reinforcement learning and other techniques. However, as LMs are getting stronger and more agentic, their misalignment and deceptive behaviors are also emerging and becoming increasingly difficult for humans to pre-detect and keep track of. This blog post discusses current misalignment patterns, deceptive behaviors, RL failure modes, and emergent traits in modern large models to further AI safety discussions and advance the development of mitigation strategies for LM misbehaviors.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/misalign-failure-mode/";
+          
+        },
       },{id: "post-on-the-measure-of-a-model-from-intelligence-to-generality",
         
           title: "On the Measure of a Model - From Intelligence to Generality",
@@ -237,6 +270,39 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/introduction-to-stochastic-interpolants/";
           
         },
+      },{id: "post-generative-ai-archaeology",
+        
+          title: "Generative AI Archaeology",
+        
+        description: "We document the rise of the Generative AI Archaeologist, whose tools include linear algebra and probability theory, jailbreaking, and debuggers, compared to the metal detectors, pickaxes, and radar surveys of traditional archaeology. GenAI Archaeologists have reported findings both through luck by observing unexpected behaviour in publicly accessible models, and by exploiting the mathematical properties of models. In this blog, we survey five types of findings unearthed by GenAI Archaeologists and discuss the status of those findings.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/genai-archaeology/";
+          
+        },
+      },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
+        
+          title: "From Trajectories to Operators — A Unified Flow Map Perspective on Generative Modeling...",
+        
+        description: "In this post, we reframe continuous-time generative modeling from integrating trajectories to learning two-time operators (flow maps). This operator view unifies diffusion, flow matching, and consistency models, and suggests a practical diagnostic — semigroup-consistent jumps yield both step-robust generation and low compositional drift. We derive Eulerian/Lagrangian distillation objectives and use inpainting experiments to show why semigroup-consistent jumps can be both step-robust and composition-stable.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/flow-map-learning/";
+          
+        },
+      },{id: "post-the-effect-of-feature-resolution-on-embedding-dimension",
+        
+          title: "The effect of feature resolution on embedding dimension",
+        
+        description: "High-dimensional data can be compressed into lower-dimensional embeddings while retaining a relatively large amount of relevant information, a phenomenon which, despite its widespread use, we struggle to fully explain. In this post, we use a common property of datasets - a limit on the number of features per data point - to show how a slight uniform dependence between features can be exploited to reduce the required dimensions by at least a third, while sacrificing no information about the features. To do so, we introduce the concepts of dataset resolution and feature composition of a dataset, and analyse how a set of orderings of the dataset affect the types of partitions we can create of the dataset.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/feature-reduction/";
+          
+        },
       },{id: "post-evalcards-for-standardized-evaluation-reporting",
         
           title: "EvalCards for Standardized Evaluation Reporting",
@@ -257,6 +323,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/elastic-weight-consolidation-nuts-bolts/";
+          
+        },
+      },{id: "post-ai-fundamentals-valuing-ai-agents-amp-data-assets",
+        
+          title: "AI Fundamentals: Valuing AI Agents &amp; Data Assets",
+        
+        description: "Large Language Model (LLM) agents now read the world through managed-context pipelines, write to it via tool-calling APIs, and continuously re-wire themselves with fresh experience. Stakeholders therefore need a Generally Accepted Accounting Principles (GAAP) compatible method to price both (i) the agent&#39;s labour-like output and (ii) the data traces that fuel learning. We formalise a single unifying metric - agent Economic Value (AEV)- and demonstrate that these metrics are measurable today. We then extend the template to reinforcement-learning regimes in which grounded rewards equal cash flows. Lastly, we propose a financial settlement layer, which transforms the agent from a passive software user into an active economic participant.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/economic-agents/";
           
         },
       },{id: "post-earth4d-production-ready-space-time-positional-encoding-for-world-models",
@@ -281,26 +358,15 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/distill-example/";
           
         },
-      },{id: "post-from-u-nets-to-dits-the-architectural-evolution-of-text-to-image-diffusion-models-2021-2025",
+      },{id: "post-navigating-the-manifold-a-geometric-perspective-on-diffusion-based-inverse-problems",
         
-          title: "From U-Nets to DiTs: The Architectural Evolution of Text-to-Image Diffusion Models (2021–2025)",
+          title: "Navigating the Manifold — A Geometric Perspective on Diffusion-Based Inverse Problems",
         
-        description: "A comprehensive analysis of how diffusion model architectures evolved from U-Net backbones to Diffusion Transformers, transforming text-to-image generation capabilities.",
+        description: "This blogpost develops a geometric and probabilistic lens on diffusion priors for inverse problems. We show that a wide range of methods mostly instantiate two operator-splitting paradigms, i.e., posterior-guided sampling and clean-space local-MAP optimization. Through manifold diagrams, Tweedie-based animations, and step-by-step derivations, we explain how these paradigms decouple a pretrained diffusion prior from measurement physics, clarify when they approximate full posterior sampling versus MAP estimation, and distill practical design rules for building robust diffusion-based inverse solvers.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/diffusion-architecture-evolution/";
-          
-        },
-      },{id: "post-defining-and-quantifying-compositional-structure",
-        
-          title: "Defining and quantifying compositional structure",
-        
-        description: "Compositionality is thought to be crucial in human cognition and AI, but we lack a scientific understanding of what it is. What kind of data is compositionally structured? Can we mathematically quantify the amount and character of compositional structure? This blog post introduces a novel approach for doing so, building off of existing tools from algorithmic information theory that formalize notions of complexity and structure. The mathematical definition of compositionality that we&#39;ll come to is rigorous, precise, and general, and the hope is that it can inspire novel research directions in AI for uncovering compositional structure in natural data.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/compositionality/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/diffusion-inverse-problems/";
           
         },
       },{id: "post-chunktabpfn-training-free-long-context",
@@ -323,6 +389,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/budget-alignment/";
+          
+        },
+      },{id: "post-beyond-the-rerun-why-reproducibility-is-failing-science",
+        
+          title: "Beyond the Rerun: Why Reproducibility is Failing Science",
+        
+        description: "Is reproducibility enough? We discuss the current reproducibility crisis and the limitations that focusing solely on this aspect of scientific project quality imposes on science. We propose a broader approach to the problem of scientific debt and outline practical actions researchers can take in their research. We also draw attention to the need for community action on the issue.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/beyond-the-rerun/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2025/2026-04-27-remote-sensing-foundation-models-to-world-models/";
           
         },
       },{id: "books-the-godfather",
