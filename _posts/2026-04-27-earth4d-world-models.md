@@ -215,8 +215,8 @@ Hash encoding's memory efficiency comes with a tradeoff: **hash collisions**. Wh
 For example, with a hash table size of $$2^{22}$$ (4 million entries) and level 24 grid resolution of $$2^{28}$$ cells, only 1 in 64 grid cells gets a unique hash entry. The other 63 collide.
 
 <figure>
-  <img src="{{ 'assets/img/2026-04-27-earth4d-world-models/collision_heatmap.png' | relative_url }}" alt="Collision Rate Analysis" style="width: 100%;">
-  <figcaption>Hash collision rates across resolution levels for different data distributions. Fine levels (high resolution) show expected 2-4% collision rates, except for power-of-2 artifacts at level 23.</figcaption>
+  <img src="{{ 'assets/img/2026-04-27-earth4d-world-models/hash_collision_1m_simulation.png' | relative_url }}" alt="Earth4D Hash Collision Analysis" style="width: 100%;">
+  <figcaption><b>Earth4D Hash Collision Analysis.</b> Simulation results for 1M points across 10 spatiotemporal distribution scenarios (rows) and 24 resolution levels (columns) for all four grids (XYZ, XYT, YZT, XZT). Yellow indicates high collision rates, purple indicates low collision rates. Fine levels (right side, high resolution) show expected 2-4% collision rates across most scenarios. Extreme spatial/temporal clustering scenarios show higher collisions at intermediate levels where grid resolution exceeds hash table capacity. (Figure adapted from DeepEarth paper Figure 6)</figcaption>
 </figure>
 
 **Are collisions bad?** Not necessarily. The hash encoding literature<d-cite key="muller2022instant"></d-cite> shows that downstream networks (MLPs) can learn to disambiguate collisions when they're relatively rare. The hash function's randomness actually acts as a form of regularization.
@@ -332,11 +332,6 @@ The compressed configuration achieves:
 - **Still outperforms baseline** by 14.7% R²
 
 This is remarkable: by shrinking the hash table by $$256×$$ ($$2^{22}$$ → $$2^{14}$$) and adding learned probing, we maintain—and even improve—performance while fitting on edge devices.
-
-<figure>
-  <img src="{{ 'assets/img/2026-04-27-earth4d-world-models/compression_tradeoff.png' | relative_url }}" alt="Compression Tradeoff" style="width: 90%;">
-  <figcaption>Performance vs parameter count. Learned hash probing (orange) enables 99% compression with minimal quality loss. The compressed 5.1M model outperforms the 724M baseline.</figcaption>
-</figure>
 
 **Why does compression improve performance?** We hypothesize that extreme compression acts as regularization, similar to how restricting a student's note-taking forces deeper understanding rather than verbatim transcription.
 
@@ -643,10 +638,6 @@ These results have implications beyond Earth observation. They suggest that for 
 - **Bootstrap** from coordinates when multimodal data is unavailable (sparse regions, historical periods, privacy-sensitive applications)
 - **Compress** through learned hash probing, enabling deployment beyond datacenters
 - **Generalize** by learning spatiotemporal patterns that transfer across tasks
-
-Earth4D is fully open source and ready for integration:
-
-**GitHub**: [https://github.com/legel/deepearth](https://github.com/legel/deepearth)
 
 As we build AI systems to understand and simulate our planet—for climate adaptation, disaster response, agricultural resilience, and ecosystem monitoring—**how we encode space and time fundamentally shapes what patterns models can discover**.
 
