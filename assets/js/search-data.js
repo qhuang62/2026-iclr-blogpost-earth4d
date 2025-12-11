@@ -72,268 +72,279 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://iclr-blog-track.github.io/home/";
               },
-            },{id: "post-wait-do-we-need-to-wait-revisiting-budget-forcing-for-sequential-test-time-scaling",
+            },{id: "post-the-trade-off-between-parallel-environments-and-steps-in-ppo",
         
-          title: "Wait, Do We Need to Wait? Revisiting Budget Forcing for Sequential Test-Time Scaling...",
+          title: "The Trade-off Between Parallel Environments and Steps in PPO",
         
-        description: "This blog revisits budget forcing, a sequential test-time scaling technique for reasoning models by controlling when it continues thinking versus when it must answer. We evaluate how well the method transfers across model types, including non-reasoning models, and whether alternative keywords work. We provide practical guidelines for using the technique.",
+        description: "This blog post explores batch size in PPO-what happens when we increase the number of parallel environments versus the number of rollout steps, while keeping the total samples per update fixed. We discuss how this affects bias and variance in gradient estimation.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/wait-do-we-need-to-wait/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/ppo-batch-size/";
           
         },
-      },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
+      },{id: "post-beyond-attention-as-a-graph",
         
-          title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
+          title: "Beyond Attention as a Graph",
         
-        description: "We explore how large language models can be used to predict human decisions in language-based persuasion games, comparing direct prompting, LLM-based data generation, and hybrid methods that mix synthetic and human data.",
+        description: "We extend a graph-based perspective on attention to higher-order topological structures, exploring 2-simplicial attention and its implications for transformer depth and expressivity.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/using-large-language-models-to-simulate-and-predict-human-decision-making/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/beyond-attention-as-graph/";
           
         },
-      },{id: "post-what-and-what-not-are-calibrated-uncertainties-actually-useful-for",
+      },{id: "post-attention-sinks-from-the-graph-perspective",
         
-          title: "What (and What Not) are Calibrated Uncertainties Actually Useful for?",
+          title: "Attention Sinks from the Graph Perspective",
         
-        description: "The blogpost clarifies the usefulness of having a model with calibrated probabilities, something that is not often stated in the calibration literature. I shows that a calibrated model can be relied on to estimate average loss/reward, however, good calibration does not mean that a model is useful for per-sample decision making.",
+        description: "We explore attention sinks in decoder-only transformers through the lens of message passing on graphs, revealing an intrinsic structural bias toward early tokens that may explain this phenomenon.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/useful-calibrated-uncertainties/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/attention-sinks-graph-perspective/";
           
         },
-      },{id: "post-tracing-the-principles-behind-modern-diffusion-models",
+      },{id: "post-a-hitchhiker-39-s-guide-to-agent-evaluation",
         
-          title: "Tracing the Principles Behind Modern Diffusion Models",
+          title: "A Hitchhiker&#39;s Guide to Agent Evaluation",
         
-        description: "Diffusion models can feel like a jungle of acronyms, but the core idea is simple: start from noise and gradually move a cloud of samples until it looks like real data. This post gives an intuition-first tour showing that DDPMs, score-based models, and flow matching are the same recipe with different prediction targets, all rooted in the change-of-variable rule from calculus and powered by one shared “conditional trick” that turns learning into supervised regression. Finally, we zoom out to the speed problem and show how flow map models aim to replace many tiny denoising steps with a few big, accurate jumps toward real-time generation.",
+        description: "An introductory guide to LLM-based agents&#39; evaluation. We explore what makes agent evaluation different from traditional LLM benchmarks, how to measure success, safety, and trajectory quality, and highlight open challenges in the field.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/tracing-principles-behind-modern-diffusion-models/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/agent-evaluation/";
           
         },
-      },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
+      },{id: "post-what-can-you-do-when-you-have-zero-rewards-during-rl",
         
-          title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
+          title: "What Can You Do When You Have Zero Rewards During RL?",
         
-        description: "The history of Artificial Intelligence (AI) has largely been defined by a dichotomy: the flexible, probabilistic learning of Connectionism versus the rigorous, compositional logic of Symbolism. However, the emergence of Large Language Models (LLMs) is fostering a synthesis of these paradigms through a fundamental architectural shift: the move from Dense Monoliths to Modular, Routed Systems. This shift is fractal. At the Macro level, LLMs function as central planners, using symbolic protocols to orchestrate external tools and specialized neural agents. Simultaneously, at the Micro level, the models themselves are evolving into sparse, modular structures (such as Mixture-of-Experts) governed by internal routing mechanisms. In this post, we explore this transition toward Symbolic Routing. We discuss how this paradigm enables us to build societies of neural agents, discover latent modularity within dense networks, thus enabling composable, verifiable, interpretable and continually learnable AI system. And we also discuss how to leverage these structures to synthesize training data and formally verify AI reasoning.",
+        description: "If your base model has zero success rates, performing RL with outcome rewards won&#39;t do anything. What can you do then? 🤔TL;DR: simply adding easy samples to your training dataset can unlock RL training!",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/symbolic-connect/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/zero-rewards/";
           
         },
-      },{id: "post-speeding-up-training-of-model-free-reinforcement-learning-a-comparative-evaluation-for-fast-and-accurate-learning",
+      },{id: "post-the-witness-problem-in-multi-agent-cooperation",
         
-          title: "Speeding up Training of Model-Free Reinforcement Learning :A Comparative Evaluation for Fast and...",
+          title: "The Witness Problem in Multi-Agent Cooperation",
         
-        description: "Reinforcement Learning (RL) represents a powerful framework for solving sequential decision-making problems in dynamic environments across diverse domains, such as control of robots or optimization of profit. However, its practical implementation requires navigating a variety of software packages, encompassing deep learning libraries (e.g., TensorFlow, PyTorch, JAX/Flax), environment frameworks (e.g., Gymnasium, Numpy), and hyperparameter optimization techniques and libraries. This post critically evaluates the common PyTorch, Gymnasium, and NumPy RL stack by comparing it to a faster alternative:JAX/Flax for both of model training and environment simulation. A Gridworld example evaluating both training speed and accuracy is utilized to test each of these packages. Additionally, we complement our example by a comprehensive tracking and monitoring of the training process using MLflow along with a thorough hyperparameters optimization via Optuna. The post concludes with a discussion of the results and final recommendations for optimal use cases of each of these packages.",
+        description: "I built cognitive modules for Concordia agents and found that agent intelligence isn&#39;t the bottleneck. Strategic cooperation fails because the observation layer can&#39;t recognize strategic behavior.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/speeding-up-rl/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/witness-problem/";
           
         },
-      },{id: "post-getting-sac-to-work-on-a-massive-parallel-simulator-an-rl-journey-with-off-policy-algorithms",
+      },{id: "post-why-did-the-ai-model-say-that-a-methodological-practical-guide-for-explaining-multimodal-medical-decisions",
         
-          title: "Getting SAC to Work on a Massive Parallel Simulator: An RL Journey With...",
+          title: "Why Did the AI Model Say That? A Methodological Practical Guide for Explaining...",
         
-        description: "This post details how to get the Soft-Actor Critic (SAC) and other off-policy reinforcement learning algorithms to work on massively parallel simulators (e.g., Isaac Sim with thousands of robots simulated in parallel). In addition to tuning SAC for speed, the post also explores why SAC fails where PPO succeeds, highlighting a common problem in task design that many codebases share.",
+        description: "A methodological guide that summarizes key explainability techniques for understanding multimodal medical AI systems, addressing the critical challenge of understanding what these systems have learned and how they&#39;ll behave in real-world clinical settings.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/sac-massive-sim/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/why-did-the-model-say-that/";
           
         },
-      },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
+      },{id: "post-why-ai-evaluations-need-error-bars",
         
-          title: "Pushing Meta-Continual Learning Algorithms to the Limit",
+          title: "Why AI Evaluations Need Error Bars",
         
-        description: "Meta-continual learning algorithms should be able to handle tasks with extended data streams compared to the traditional deep learning setting. These algorithms have not been applied to settings with extreme data streams, such as classification tasks with 1,000 classes, nor have they been compared to traditional continual learning algorithms. We compare meta-continual learning to continual learning and we find that meta-continual learning scales better than continual learning.",
+        description: "AI evaluations often rely on single-run scores even though models, agents, and judges are inherently stochastic, making many reported differences unstable. This post surveys statistical tools—error bars, reliability measures, Bayesian models—that show and help manage this variance. Overall, it highlights how incorporating established statistical practices can make evaluations more trustworthy and informative.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/pushing-meta-cl-methods/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/why-ai-evaluations-need-error-bars/";
           
         },
-      },{id: "post-language-as-a-window-into-the-mind-how-nlp-and-llms-advance-human-sciences",
+      },{id: "post-when-we-are-nosy",
         
-          title: "Language as a Window Into the Mind: How NLP and LLMs Advance Human...",
+          title: "When We are Nosy",
         
-        description: "Can NLP predict heroin-addiction outcomes, uncover suicide risk, or simulate (and even influence) brain activity? Could LLMs one day contribute to research worthy of a Nobel Prize for advancing our understanding of human behavior? And what role do NLP scientists play in shaping that possibility? This post explores these questions, arguing that language technologies are not just tools that support scientific work (like literature search agents, writing tools, or coding assistants), but that by treating language as a window into the human mind, NLP and LLMs can actively help researchers uncover mechanisms of human behavior, cognition, and brain function.",
+        description: "Machine learning systems are defined for many people, and for the design of in particular language models, calls for “social choice–based’’ methods are increasing. This seems to run counter to the practice in machine learning to “personalize’’ models. This blogpost clarifies when personalization and when social choice has its place, using the Impossibility of a Paretian Liberal by Amartya Sen.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/nlp-for-human-sciences/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/when-we-are-nosy/";
           
         },
-      },{id: "post-model-misspecification-in-simulation-based-inference-recent-advances-and-open-challenges",
+      },{id: "post-computer-use-survey-a-visual-survey-of-computer-use-agents",
         
-          title: "Model Misspecification in Simulation-Based Inference - Recent Advances and Open Challenges",
+          title: "Computer Use Survey - A Visual Survey of Computer Use Agents",
         
-        description: "Model misspecification is a critical challenge in simulation-based inference (SBI), particularly in neural SBI methods that use simulated data to train flexible neural density estimators. These methods typically assume that simulators faithfully represent the true data-generating process, an assumption that is often violated in practice. Resulting discrepancies can make observed data effectively out-of-distribution relative to the simulations, leading to biased posterior distributions and misleading uncertainty quantification. This post reviews recent work on model misspecification in neural SBI, covering formal definitions, methods for detection and mitigation, and their underlying assumptions. It also discusses practical implications for SBI workflows and outlines open challenges for developing robust SBI methods that remain reliable in realistic, imperfectly specified applications.",
+        description: "In recent years, AI systems operating on the web and in computer environments have become a major topic of interest for both academia and industry. The goal of this blog is to provide an interesting and interactive survey of historical and recent works on computer use agents. We define key terms used in the literature, catalogue the expansive list of environments and datasets, discuss the evolution of the methodologies, and assess both today’s landscape and possible paths forward.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/model-misspecification-in-sbi/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/web-agent/";
           
         },
-      },{id: "post-do-language-models-really-learn-to-mislead-humans-via-rlhf",
+      },{id: "post-uncertainty-lifecycle-in-deep-learning",
         
-          title: "Do Language Models Really Learn to Mislead Humans via RLHF?",
+          title: "Uncertainty Lifecycle in Deep Learning",
         
-        description: "This post details an investigation of claims in Language Models Learn to Mislead Humans Via RLHF (ICLR 2025) that RLHF may unintentionally lead LLM agents to mislead humans (U-Sophistry). We found that the misleading behavior in the paper is the result of an unrealistic experimental setup and not of U-Sophistry, and can therefore be categorized as intentional misleading (I-Sophistry).",
+        description: "Literature discussing uncertainty handling in deep learning considers different tasks such as uncertainty propagation, uncertainty estimation, uncertainty decomposition, uncertainty attribution and uncertainty sensitivity analysis. However, there is no proper structure explaining how these different components interact with each other at different stages of a deep learning pipeline. We propose to structure the these task by considering the flow and transformation of uncertainty through the model and position them accordingly. We call this structure as “uncertainty lifecycle”. The uncertainty lifecycle can be represented as a structured process for handling, quantifying, analyzing, and interpreting uncertainties at different stages of a deep learning pipeline.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/mislead-lm/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/uncertainty-lifecycle-in-deep-learning/";
           
         },
-      },{id: "post-misalignments-and-rl-failure-modes-in-the-early-stage-of-superintelligence",
+      },{id: "post-trade-offs-in-llm-compute-for-reasoning-intensive-information-retrieval",
         
-          title: "Misalignments and RL Failure Modes in the Early Stage of Superintelligence",
+          title: "Trade-offs in LLM Compute for Reasoning-Intensive Information Retrieval",
         
-        description: "With the rapid ability grokking of frontier Large Models (LMs), there is growing attention and research focus on aligning them with human values and intent via large scale reinforcement learning and other techniques. However, as LMs are getting stronger and more agentic, their misalignment and deceptive behaviors are also emerging and becoming increasingly difficult for humans to pre-detect and keep track of. This blog post discusses current misalignment patterns, deceptive behaviors, RL failure modes, and emergent traits in modern large models to further AI safety discussions and advance the development of mitigation strategies for LM misbehaviors.",
+        description: "The BRIGHT benchmark (ICLR 2025 Spotlight) revealed that reasoning-intensive information retrieval requires LLM-augmented pipelines, but this raises a critical resource allocation question: where should computational budget be invested for maximum effectiveness? We conduct a systematic study on BRIGHT using the Gemini 2.5 model family, evaluating trade-offs across model strength, inference-time thinking depth, and reranking depth. Our controlled experiments quantify the marginal gains of allocating compute to query expansion versus reranking, providing practical guidance for optimizing LLM-based retrieval systems on reasoning-intensive tasks.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/misalign-failure-mode/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/trade-offs-in-llm-compute-for-reasoning-intensive-information-retrieval/";
           
         },
-      },{id: "post-on-the-measure-of-a-model-from-intelligence-to-generality",
+      },{id: "post-task-complexity-analysis",
         
-          title: "On the Measure of a Model - From Intelligence to Generality",
+          title: "Task Complexity Analysis",
         
-        description: "Benchmarks like ARC, Raven-style puzzles, and the Blackbird Task are often treated as measures of LLM intelligence. But intelligence is a moving target—hard to define and even harder to link to what we actually need models to do, like answer questions, summarize text, or write code. Optimizing for these abstract tests can pull evaluation away from real-world usefulness. We argue for a shift from chasing intelligence to measuring generality. This reframes how progress in AI should be assessed and proposes generality as a more stable foundation for evaluating capability across diverse and evolving tasks.",
+        description: "We analyzed and compared 3 different sampling strategies to sample 100 questions from MATH 500 and Hendrycks&#39; 4500 (the remaining questions from Hendrycks&#39; math dataset that wasn&#39;t selected for MATH500). We ran the subsets on 13 different small (apparent difficulty (the levels assigned by Hendrycks&#39; creators) than MATH 500 results in a more stable ranking for the low performing models, but the baseline apparent difficulty split is the most stable for the top performing models.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/measuregen/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/task-complexity-analysis/";
           
         },
-      },{id: "post-research-directions-in-multimodal-chain-of-thought-mcot-with-sketching",
+      },{id: "post-an-impossibility-trilemma-for-data-free-sampler-evaluation",
         
-          title: "Research Directions in Multimodal Chain-of-Thought (MCoT) with Sketching",
+          title: "An Impossibility Trilemma for Data-Free Sampler Evaluation",
         
-        description: "This article explores adding sketching to Multimodal Chain-of-Thought (MCoT)reasoning to enhance AI capabilities. It reviews past methods, identifies key gaps such as the lack of sketch-rationale datasets, and proposes advancing the field through targeted data collection, unified multimodal models, and reinforcement learning. Ethical considerations include mitigating cultural bias and visual misrepresentation in generated sketches.",
+        description: "Neural samplers aim to learn to sample a target unnormalized energy potential. Sampler quality can be evaluated in a data-free manner, using only the model and the target potential, or in a data-driven manner, with additional data about the target distribution such as known modes, summary statistics, and reference MCMC samples. While data-driven eval is valuable, data-free eval has compelling conceptual advantages, raising the question of how well data-free eval could work. Here, we prove an impossibility trilemma for data-free sampler evaluation; we can only have two among i) mode-covering metric, ii) stable with finite variance, iii) universal ranking (dominance transitivity guarantee / model score does not depend on other models). This note surveys underexplored design space of data-free sampler eval metrics, and asks the community which eval properties we are willing to sacrifice in the face of the impossibility of satisfying all of them.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/mcot-sketching/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/sampler-eval-trilemma/";
           
         },
-      },{id: "post-from-reinforce-to-dr-grpo-a-unified-perspective-on-llm-post-training",
+      },{id: "post-revisiting-the-nethack-learning-environment",
         
-          title: "From REINFORCE to Dr. GRPO: A Unified Perspective on LLM Post-Training",
+          title: "Revisiting The NetHack Learning Environment",
         
-        description: "Recently, many reinforcement learning (RL) algorithms have been applied to improve the post-training of large language models (LLMs). In this article, we aim to provide a unified perspective on the objectives of these RL algorithms, exploring how they relate to each other through the Policy Gradient Theorem — the fundamental theorem of policy gradient methods.",
+        description: "The NetHack Learning Environment (NLE) was proposed as a challenging benchmark to test an agents abilities to perform complex reasoning over long time horizons in a stochastic, partially-observed, procedurally generated setting. To date, no approach, including those based on reinforcement learning, using large pretrained models, using handcoded symbolic agents, imitating expert trajectories or any hybrid method has achieved significant progress towards completing the game. We take a deeper look into the mechanics and interface of the NLE and show that much of the complexity of NetHack is inaccessible due to constraints on the observation and action spaces. We propose a series of modifications and show that they meaningfully improve performance on the NLE.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/llm-post-training/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/revisiting-the-nle/";
           
         },
-      },{id: "post-are-dilemmas-and-conflicts-in-llm-alignment-solvable-a-view-from-priority-graph",
+      },{id: "post-mimicking-or-reasoning-rethinking-multi-modal-in-context-learning-in-vision-language-models",
         
-          title: "Are Dilemmas and Conflicts in LLM Alignment Solvable? A View from Priority Graph...",
+          title: "Mimicking or Reasoning: Rethinking Multi-Modal In-Context Learning in Vision-Language Models",
         
-        description: "As Large Language Models (LLMs) become more powerful and autonomous, they increasingly face conflicts and dilemmas in many scenarios. We first summarize and taxonomize these diverse conflicts. Then, we model the LLM&#39;s preferences to make different choices as a priority graph, where instructions and values are nodes, and the edges represent context-specific priorities determined by the model&#39;s output distribution. This graph reveals that a unified stable LLM alignment is very challenging, because the graph is not static in different contexts. Besides, it also reveals a potential vulnerability: priority hacking, where adversaries can craft deceptive contexts to manipulate the graph and bypass safety alignments. To counter this, we propose a runtime verification mechanism, enabling LLMs to query external sources to ground their context and resist manipulation. While this approach enhances robustness, we also acknowledge that many ethical and value dilemmas are philosophically irreducible, posing an open challenge for the future of AI alignment.",
+        description: "Vision-language models (VLMs) are widely assumed to exhibit in-context learning (ICL), a property similar to that of their language-only counterparts. While recent work suggests VLMs can perform multimodal ICL (MM-ICL), studies show they often rely on shallow heuristics such as copying or majority voting, rather than true task understanding. We revisit this assumption by evaluating VLMs under distribution shifts, where support examples come from a dataset different from the query. Surprisingly, performance often degrades with more demonstrations, and models tend to copy answers rather than learn from them. To investigate further, we propose a new MM-ICL with reasoning pipeline that augments each demonstration with a generated rationale alongside the answer. We conduct extensive and comprehensive experiments on both perception- and reasoning-required datasets with open-source VLMs ranging from 3B to 72B and proprietary models such as Gemini 2.0 and 2.5. We conduct controlled studies varying shot count, retrieval method, rationale quality, and distribution. Our results show limited performance sensitivity across these factors, indicating that current VLMs fail to effectively utilize demonstration-level information and thus do not inherit the strong few-shot abilities of large language models (LLMs). We further conduct a mechanistic analysis showing that VLMs exhibit weak prefix matching and lack induction-head-like behavior, which potentially explains the failure of MM-ICL.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/llm-conflicts/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/rethinking-mmicl/";
           
         },
-      },{id: "post-justrl-scaling-a-1-5b-llm-with-a-simple-rl-recipe",
+      },{id: "post-looking-for-tractable-definitions-to-satisfy-on-the-path-to-open-endedness",
         
-          title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
+          title: "Looking for Tractable Definitions to Satisfy on the Path to Open-Endedness",
         
-        description: "Training small reasoning models with RL has become a race toward complexity, using multi-stage pipelines, dynamic schedules, and curriculum learning. We ask whether this complexity necessary? We show that JustRL, a simple recipe with fixed hyperparameters, achieves state-of-the-art performance on two different 1.5B base models (54.5% and 64.3% across 9 math benchmarks) while using 2× less compute than sophisticated approaches. The same hyperparameters transfer across both models without tuning, and training remains stable over thousands of steps without intervention. This suggests the field may be adding complexity to solve problems that disappear with a stable, scaled-up baseline.",
+        description: "Understanding and designing systems with open-endedness has been called the “last grand challenge of AI research” and ties to problems like accelerating scientific discovery, continual learning, and exploration. Over the past few years there has been fast progress engineering bigger interactive worlds with capacity for open-endedness and designing systems that can improve autonomously on narrow task distributions, but finding a way to quantify the gap between these and true open-ended systems remains an active challenge. In this blog post, we look at some existing open-endedness definitions and discuss what it would mean to satisfy them and construct attempts at open-endedness that do. By adjusting definitions, we get insights into different forms of partial progress towards constructing open-ended systems.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/justrl/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/qoe/";
           
         },
-      },{id: "post-introduction-to-stochastic-interpolants",
+      },{id: "post-extracting-model-precision-from-20-logprobs",
         
-          title: "Introduction to Stochastic Interpolants",
+          title: "Extracting Model Precision from 20 Logprobs",
         
-        description: "Prominent generative modeling frameworks such as Flow Matching and score-based Diffusion Models establish a smooth transformation between a Gaussian distribution and a data distribution. In this blog post, we provide an introduction to the more general framework of Stochastic Interpolants, which allows one to flexibly interpolate between any two distributions and learn a velocity field to transform samples from one into samples of the other. No prior knowledge of generative models is required for this introduction.",
+        description: "We demonstrate that the internal floating-point precision of language models can be inferred from API-exposed logprobs.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/introduction-to-stochastic-interpolants/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/precision-extraction/";
           
         },
-      },{id: "post-generative-ai-archaeology",
+      },{id: "post-beyond-black-box-predictions-neural-operators-as-a-bridge-to-interpretable-governing-equations-in-biology",
         
-          title: "Generative AI Archaeology",
+          title: "Beyond Black-Box Predictions: Neural Operators as a Bridge to Interpretable Governing Equations in...",
         
-        description: "We document the rise of the Generative AI Archaeologist, whose tools include linear algebra and probability theory, jailbreaking, and debuggers, compared to the metal detectors, pickaxes, and radar surveys of traditional archaeology. GenAI Archaeologists have reported findings both through luck by observing unexpected behaviour in publicly accessible models, and by exploiting the mathematical properties of models. In this blog, we survey five types of findings unearthed by GenAI Archaeologists and discuss the status of those findings.",
+        description: "This study introduces a hybrid computational framework that integrates Neural Operators with Sparse Identification of Nonlinear Dynamics (SINDy) to recover interpretable governing equations from sparse, partially observed biological data. Using an NF-κB signaling model, we demonstrate that Fourier Neural Operators effectively reconstruct hidden state trajectories from limited measurements, serving as a resolution-independent surrogate that enables the discovery of parsimonious dynamical laws. This operator-plus-symbolic paradigm offers a scalable workflow for extracting mechanistic insights from experimental readouts where classical inference methods typically fail.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/genai-archaeology/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/neural-ops-in-biology/";
           
         },
-      },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
+      },{id: "post-loneliness-as-a-case-study-for-social-reward-misalignment",
         
-          title: "From Trajectories to Operators — A Unified Flow Map Perspective on Generative Modeling...",
+          title: "Loneliness as a Case Study for Social Reward Misalignment",
         
-        description: "In this post, we reframe continuous-time generative modeling from integrating trajectories to learning two-time operators (flow maps). This operator view unifies diffusion, flow matching, and consistency models, and suggests a practical diagnostic — semigroup-consistent jumps yield both step-robust generation and low compositional drift. We derive Eulerian/Lagrangian distillation objectives and use inpainting experiments to show why semigroup-consistent jumps can be both step-robust and composition-stable.",
+        description: "The goal of this blogpost is to use loneliness as a clean case study of social proxy-reward misalignment in RL. We introduce a minimal homeostatic environment with loneliness drift and accumulated harm, and show that engagement-optimized agents learn short-term “social snack” policies that reduce the error signal without improving the underlying social state. This simple testbed highlights why reward inference or well-being objectives may be a better foundation than engagement proxies for socially aligned AI.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/flow-map-learning/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/loneliness-social-misalignment/";
           
         },
-      },{id: "post-the-effect-of-feature-resolution-on-embedding-dimension",
+      },{id: "post-the-human-knowledge-loophole-in-the-39-bitter-lesson-39-for-llms",
         
-          title: "The effect of feature resolution on embedding dimension",
+          title: "The human knowledge loophole in the &#39;bitter lesson&#39; for LLMs",
         
-        description: "High-dimensional data can be compressed into lower-dimensional embeddings while retaining a relatively large amount of relevant information, a phenomenon which, despite its widespread use, we struggle to fully explain. In this post, we use a common property of datasets - a limit on the number of features per data point - to show how a slight uniform dependence between features can be exploited to reduce the required dimensions by at least a third, while sacrificing no information about the features. To do so, we introduce the concepts of dataset resolution and feature composition of a dataset, and analyse how a set of orderings of the dataset affect the types of partitions we can create of the dataset.",
+        description: "Are LLMs a proof that the &#39;bitter lesson&#39; holds for NLP? Perhaps the opposite is true: they work due to the scale of human data, and not just computation.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/feature-reduction/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/llm-bitter-lesson/";
           
         },
-      },{id: "post-evalcards-for-standardized-evaluation-reporting",
+      },{id: "post-charting-the-depths-interpretability-tools-to-enhance-llm-safety",
         
-          title: "EvalCards for Standardized Evaluation Reporting",
+          title: "Charting the Depths: Interpretability Tools to Enhance LLM Safety",
         
-        description: "In the age of rapidly released LLMs, evaluation reporting is fragmented, inconsistent, and often misleading. We surveyed the landscape and found three critical crises—reproducibility, accessibility, and governance—that Model Cards alone can&#39;t solve. Our solution? EvalCards-- lightweight, standardized evaluation summaries that are easy to write, easy to understand, and impossible to miss. EvalCards are designed to enhance transparency for both researchers and practitioners while providing a practical foundation to meet emerging governance requirements.",
+        description: "Motivated by the increasing deployment of LLMs for safety-critical applications, we provide an accessible introduction to a practical suite of interpretability tools useful for understanding LLMs’ behavior during safety-critical decisions. Previous discussions of interpretability are often heavily focused on these methods&#39; technical aspects, rather than giving practical guidance for their immediate use; here, we provide practitioners with an overview of a range of methods for understanding LLM behavior. For each method covered, we highlight what it can and cannot tell us, and how this can help inform deployment decisions.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/evalcards/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/interp-safety/";
           
         },
-      },{id: "post-elastic-weight-consolidation-ewc-nuts-and-bolts",
+      },{id: "post-diffusion-as-infinite-hierarchical-vaes-do-diffusion-models-generalize-better-than-deep-vaes",
         
-          title: "Elastic Weight Consolidation (EWC): Nuts and Bolts",
+          title: "Diffusion as Infinite Hierarchical VAEs - Do Diffusion Models Generalize Better than Deep...",
         
-        description: "A theoretical deep-dive into the Elastic Weight Consolidation method for continual learning, explaining the mathematical foundations and intuitions behind this influential approach to preventing catastrophic forgetting.",
+        description: "This blogpost unifies Diffusion Models and Variational Autoencoders. We demonstrate that DPMs are mathematically equivalent to Hierarchical VAEs (HVAEs) in the limit of infinite depth. By analyzing this architectural link, we explain why diffusion models avoid the posterior collapse that plagues deep VAEs and identify the sweet spot for generalization where these models perform best.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/elastic-weight-consolidation-nuts-bolts/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/generalization-in-diffusion-as-infinite-hvae/";
           
         },
-      },{id: "post-ai-fundamentals-valuing-ai-agents-amp-data-assets",
+      },{id: "post-ready-for-general-agents-let-39-s-test-it",
         
-          title: "AI Fundamentals: Valuing AI Agents &amp; Data Assets",
+          title: "Ready For General Agents? Let&#39;s Test It.",
         
-        description: "Large Language Model (LLM) agents now read the world through managed-context pipelines, write to it via tool-calling APIs, and continuously re-wire themselves with fresh experience. Stakeholders therefore need a Generally Accepted Accounting Principles (GAAP) compatible method to price both (i) the agent&#39;s labour-like output and (ii) the data traces that fuel learning. We formalise a single unifying metric - agent Economic Value (AEV)- and demonstrate that these metrics are measurable today. We then extend the template to reinforcement-learning regimes in which grounded rewards equal cash flows. Lastly, we propose a financial settlement layer, which transforms the agent from a passive software user into an active economic participant.",
+        description: "General-purpose agents are emerging, promising seamless deployment across domains. However, we currently do not measure their adaptability to diverse, unseen settings—a core requirement for true generality. We outline the key challenges and chart a path toward a unified evaluation framework designed to guide the development of general agents.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/economic-agents/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/general-agent-evaluation/";
+          
+        },
+      },{id: "post-divide-conquer-and-standardize-a-recursive-architecture-for-multi-agent-systems-mas",
+        
+          title: "Divide, Conquer, and Standardize — A Recursive Architecture for Multi-Agent Systems (MAS)",
+        
+        description: "The scalability and robustness of current Multi-Agent Systems (MAS) are severely constrained by the heterogeneity of communication interfaces and a reliance on fragile ad-hoc integrations. We introduce FRACTAL-MAS, a recursive architecture that standardizes orchestration through the convergence of MCP and A2A protocols, integrating a unified control loop with procedural memory grounded in Case-Based Reasoning (CBR). This design allows for continuous adaptation without fine-tuning and enables a seamless transition from rigid hierarchical structures to decentralized networks, providing a reference architecture for the robust and scalable construction of MAS.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/fractal-mas/";
           
         },
       },{id: "post-earth4d-production-ready-space-time-positional-encoding-for-world-models",
@@ -347,6 +358,28 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/earth4d-world-models/";
           
         },
+      },{id: "post-dynamics-of-forgetting",
+        
+          title: "Dynamics of Forgetting",
+        
+        description: "We analyze catastrophic forgetting through spectral decompositions of weights and updates, revealing when optimization refines existing circuits versus builds interfering new ones. Leveraging this, we design spectral techniques that suppress destructive update components while preserving structure.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/dynamics-of-forgetting/";
+          
+        },
+      },{id: "post-dllm-rethinking-generation-beyond-autoregressive-models",
+        
+          title: "dLLM - Rethinking Generation Beyond Autoregressive Models",
+        
+        description: "Diffusion large language models (dLLMs) provide an alternative to autoregressive Transformers, supporting parallel token generation and flexible infilling. They excel in structured, long-horizon, or data-constrained settings, though challenges remain with output length, denoising, and blockwise generation. Hybrid approaches combining diffusion for reasoning and AR for generation show promise.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/dllm/";
+          
+        },
       },{id: "post-sample-blog-post",
         
           title: "Sample Blog Post",
@@ -358,59 +391,26 @@ ninja.data = [{
             window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/distill-example/";
           
         },
-      },{id: "post-navigating-the-manifold-a-geometric-perspective-on-diffusion-based-inverse-problems",
+      },{id: "post-hypes-and-hopes-for-causal-inference-for-brain-dynamics",
         
-          title: "Navigating the Manifold — A Geometric Perspective on Diffusion-Based Inverse Problems",
+          title: "Hypes and Hopes for Causal Inference for Brain Dynamics",
         
-        description: "This blogpost develops a geometric and probabilistic lens on diffusion priors for inverse problems. We show that a wide range of methods mostly instantiate two operator-splitting paradigms, i.e., posterior-guided sampling and clean-space local-MAP optimization. Through manifold diagrams, Tweedie-based animations, and step-by-step derivations, we explain how these paradigms decouple a pretrained diffusion prior from measurement physics, clarify when they approximate full posterior sampling versus MAP estimation, and distill practical design rules for building robust diffusion-based inverse solvers.",
+        description: "We study whether modern identifiability-based nonlinear ICA methods, in particular Time-Contrastive Learning (TCL), can recover meaningful sources from realistic scalp-level brain recordings such as EEG. Using simulated data, EEG sensor data, and source-reconstructed cortical activity, we evaluate whether TCL provides representations aligned with the underlying sources.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/diffusion-inverse-problems/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/causal-ts/";
           
         },
-      },{id: "post-chunktabpfn-training-free-long-context",
+      },{id: "post-square-peg-round-hole-plugging-non-sequential-data-into-sequential-language-models",
         
-          title: "ChunkTabPFN: Training-free Long Context",
+          title: "Square Peg, Round Hole: Plugging Non-Sequential Data into Sequential Language Models",
         
-        description: "Tabular foundation models struggle with large datasets due to the quadratic attention. While methods like FlashAttention promise scalability, practical challenges persist in their application to tabular foundation models. Our work resolves these hurdles, enabling efficient attention, and reveals that contrary to the eariler reports, TabPFN&#39;s performance improves with larger contexts, highlighting its inherent robustness and minimal fine-tuning needs when scaling to complex, long datasets from the TabArena benchmark.",
+        description: "Autoregressive (AR) models are central to modern generative AI systems, yet their sequential inductive bias clashes with modalities that lack an obvious ordering, such as images, graphs, and point clouds. Despite this mismatch, AR models are widely used beyond language, owing to their scalability and controllability. This post highlights the growing set of techniques that make non-sequential data amenable to autoregressive modeling. There are two broad directions: approaches that choose or optimize a generation order for a fixed tokenization, and approaches that redesign the tokenization itself to simplify each next-token prediction step. We emphasize the tradeoffs these methods face, particularly between compression and autoregressive ``modelability”. By drawing these connections, we aim to motivate future work on tokenizations tailored to the needs of autoregressive models for arbitrary datatypes.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/chunked-tabpfn/";
-          
-        },
-      },{id: "post-budget-alignment-making-models-reason-in-the-user-39-s-language",
-        
-          title: "Budget Alignment: Making Models Reason in the User&#39;s Language",
-        
-        description: "We explore a two step multilingual alignment recipe for large language models to keep reasoning and answers in the user language while preserving accuracy.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/budget-alignment/";
-          
-        },
-      },{id: "post-beyond-the-rerun-why-reproducibility-is-failing-science",
-        
-          title: "Beyond the Rerun: Why Reproducibility is Failing Science",
-        
-        description: "Is reproducibility enough? We discuss the current reproducibility crisis and the limitations that focusing solely on this aspect of scientific project quality imposes on science. We propose a broader approach to the problem of scientific debt and outline practical actions researchers can take in their research. We also draw attention to the need for community action on the issue.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/beyond-the-rerun/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2025/2026-04-27-remote-sensing-foundation-models-to-world-models/";
+            window.location.href = "/2026-iclr-blogpost-earth4d/blog/2026/autoregressive-tokenization/";
           
         },
       },{id: "books-the-godfather",
